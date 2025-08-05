@@ -1,0 +1,242 @@
+[
+  {
+    "title": "The Last Horizon",
+    "description": "A space explorer uncovers a hidden planet that could change humanity's future.",
+    "videoUrl": "https://example.com/videos/last-horizon.mp4",
+    "thumbnailUrl": "/images/thumbnails/image1.jpg",
+    "genre": "Sci-Fi",
+    "duration": 124
+  },
+  {
+    "title": "Echoes of Silence",
+    "description": "A deaf musician struggles to compose a symphony while facing personal loss.",
+    "videoUrl": "https://example.com/videos/echoes-of-silence.mp4",
+    "thumbnailUrl": "/images/thumbnails/image2.jpg",
+    "genre": "Drama",
+    "duration": 108
+  },
+  {
+    "title": "Crimson Vow",
+    "description": "A betrayed bride plots revenge in a world of feudal power and family secrets.",
+    "videoUrl": "https://example.com/videos/crimson-vow.mp4",
+    "thumbnailUrl": "/images/thumbnails/image3.jpg",
+    "genre": "Thriller",
+    "duration": 115
+  },
+  {
+    "title": "Quantum Divide",
+    "description": "Scientists race against time after a physics experiment opens a dimensional rift.",
+    "videoUrl": "https://example.com/videos/quantum-divide.mp4",
+    "thumbnailUrl": "/images/thumbnails/image4.jpg",
+    "genre": "Sci-Fi",
+    "duration": 130
+  },
+  {
+    "title": "Whispers in the Fog",
+    "description": "A detective hunts a serial killer in a town cloaked by endless mist.",
+    "videoUrl": "https://example.com/videos/whispers-in-the-fog.mp4",
+    "thumbnailUrl": "/images/thumbnails/image5.jpg",
+    "genre": "Mystery",
+    "duration": 102
+  },
+  {
+    "title": "Neon Skies",
+    "description": "In a cyberpunk future, a rogue hacker battles a corrupt government AI.",
+    "videoUrl": "https://example.com/videos/neon-skies.mp4",
+    "thumbnailUrl": "/images/thumbnails/image6.jpg",
+    "genre": "Action",
+    "duration": 118
+  },
+  {
+    "title": "Paper Kingdom",
+    "description": "An orphaned boy discovers he’s heir to a magical realm hidden in books.",
+    "videoUrl": "https://example.com/videos/paper-kingdom.mp4",
+    "thumbnailUrl": "/images/thumbnails/image7.jpg",
+    "genre": "Fantasy",
+    "duration": 127
+  },
+  {
+    "title": "Afterglow",
+    "description": "Two strangers form an unlikely bond while fleeing their haunted pasts.",
+    "videoUrl": "https://example.com/videos/afterglow.mp4",
+    "thumbnailUrl": "/images/thumbnails/image8.jpg",
+    "genre": "Romance",
+    "duration": 105
+  },
+  {
+    "title": "Steel Resolve",
+    "description": "A retired boxer is forced back into the ring to protect his family.",
+    "videoUrl": "https://example.com/videos/steel-resolve.mp4",
+    "thumbnailUrl": "/images/thumbnails/image9.jpg",
+    "genre": "Drama",
+    "duration": 113
+  },
+  {
+    "title": "Black Ember",
+    "description": "An ex-assassin is pulled into one last mission when his daughter is kidnapped.",
+    "videoUrl": "https://example.com/videos/black-ember.mp4",
+    "thumbnailUrl": "/images/thumbnails/image10.jpg",
+    "genre": "Action",
+    "duration": 120
+  },
+  {
+    "title": "Frozen Echo",
+    "description": "A team of scientists uncovers an ancient threat beneath the Arctic ice.",
+    "videoUrl": "https://example.com/videos/frozen-echo.mp4",
+    "thumbnailUrl": "/images/thumbnails/image11.jpg",
+    "genre": "Thriller",
+    "duration": 110
+  },
+  {
+    "title": "The Clockmaker's Secret",
+    "description": "A young woman discovers a time-bending artifact in her grandfather’s attic.",
+    "videoUrl": "https://example.com/videos/clockmakers-secret.mp4",
+    "thumbnailUrl": "/images/thumbnails/image12.jpg",
+    "genre": "Mystery",
+    "duration": 109
+  },
+  {
+    "title": "Warden of Shadows",
+    "description": "A cursed knight guards the gates to an underworld he can never leave.",
+    "videoUrl": "https://example.com/videos/warden-of-shadows.mp4",
+    "thumbnailUrl": "/images/thumbnails/image13.jpg",
+    "genre": "Fantasy",
+    "duration": 122
+  },
+  {
+    "title": "Solar Run",
+    "description": "Rebels race to shut down a solar superweapon before it ignites Earth's orbit.",
+    "videoUrl": "https://example.com/videos/solar-run.mp4",
+    "thumbnailUrl": "/images/thumbnails/image14.jpg",
+    "genre": "Sci-Fi",
+    "duration": 117
+  },
+  {
+    "title": "Autumn Lights",
+    "description": "A photographer rediscovers love while documenting rural life in Japan.",
+    "videoUrl": "https://example.com/videos/autumn-lights.mp4",
+    "thumbnailUrl": "/images/thumbnails/image15.jpg",
+    "genre": "Romance",
+    "duration": 101
+  },
+  {
+    "title": "The Hollow Pact",
+    "description": "Three friends accidentally summon an ancient entity during a ritual dare.",
+    "videoUrl": "https://example.com/videos/hollow-pact.mp4",
+    "thumbnailUrl": "/images/thumbnails/image16.jpg",
+    "genre": "Horror",
+    "duration": 95
+  },
+  {
+    "title": "Zero Hour",
+    "description": "A hacker group takes over a major city's power grid, demanding global reform.",
+    "videoUrl": "https://example.com/videos/zero-hour.mp4",
+    "thumbnailUrl": "/images/thumbnails/image17.jpg",
+    "genre": "Thriller",
+    "duration": 112
+  },
+  {
+    "title": "Chasing Aurora",
+    "description": "A pilot and scientist chase the world's last aurora to unlock a cosmic mystery.",
+    "videoUrl": "https://example.com/videos/chasing-aurora.mp4",
+    "thumbnailUrl": "/images/thumbnails/image18.jpg",
+    "genre": "Adventure",
+    "duration": 111
+  },
+  {
+    "title": "The Painted Veil",
+    "description": "In a plague-stricken village, two doctors fall in love while healing others.",
+    "videoUrl": "https://example.com/videos/painted-veil.mp4",
+    "thumbnailUrl": "/images/thumbnails/image19.jpg",
+    "genre": "Drama",
+    "duration": 106
+  },
+  {
+    "title": "Fable Grove",
+    "description": "A girl discovers fairy creatures hiding in a nearby forest and must protect them.",
+    "videoUrl": "https://example.com/videos/fable-grove.mp4",
+    "thumbnailUrl": "/images/thumbnails/image20.jpg",
+    "genre": "Fantasy",
+    "duration": 99
+  },
+  {
+    "title": "Night Shift",
+    "description": "A rookie cop uncovers a vampire ring operating in his city after dark.",
+    "videoUrl": "https://example.com/videos/night-shift.mp4",
+    "thumbnailUrl": "/images/thumbnails/image21.jpg",
+    "genre": "Horror",
+    "duration": 104
+  },
+  {
+    "title": "Circuit Breaker",
+    "description": "A retired engineer must stop a rogue AI from starting a digital apocalypse.",
+    "videoUrl": "https://example.com/videos/circuit-breaker.mp4",
+    "thumbnailUrl": "/images/thumbnails/image22.jpg",
+    "genre": "Sci-Fi",
+    "duration": 119
+  },
+  {
+    "title": "Shattered Glass",
+    "description": "A woman wakes up in an alternate reality and must piece together her real life.",
+    "videoUrl": "https://example.com/videos/shattered-glass.mp4",
+    "thumbnailUrl": "/images/thumbnails/image23.jpg",
+    "genre": "Mystery",
+    "duration": 114
+  },
+  {
+    "title": "The Golden Trail",
+    "description": "Treasure hunters face ancient traps and rival mercenaries deep in the Amazon.",
+    "videoUrl": "https://example.com/videos/golden-trail.mp4",
+    "thumbnailUrl": "/images/thumbnails/image24.jpg",
+    "genre": "Adventure",
+    "duration": 125
+  },
+  {
+    "title": "Dead Frequency",
+    "description": "A paranormal radio DJ starts receiving broadcasts from the other side.",
+    "videoUrl": "https://example.com/videos/dead-frequency.mp4",
+    "thumbnailUrl": "/images/thumbnails/image25.jpg",
+    "genre": "Horror",
+    "duration": 98
+  },
+  {
+    "title": "Twilight Protocol",
+    "description": "In a dystopian future, a rebel hacker tries to shut down a global surveillance system.",
+    "videoUrl": "https://example.com/videos/twilight-protocol.mp4",
+    "thumbnailUrl": "/images/thumbnails/image26.jpg",
+    "genre": "Sci-Fi",
+    "duration": 121
+  },
+  {
+    "title": "Rose & Thorn",
+    "description": "An unlikely romance blooms between a crime lord and an undercover agent.",
+    "videoUrl": "https://example.com/videos/rose-and-thorn.mp4",
+    "thumbnailUrl": "/images/thumbnails/image27.jpg",
+    "genre": "Romance",
+    "duration": 103
+  },
+  {
+    "title": "The Haunting of Vale Manor",
+    "description": "A group of friends spends the night in a haunted mansion with deadly secrets.",
+    "videoUrl": "https://example.com/videos/vale-manor.mp4",
+    "thumbnailUrl": "/images/thumbnails/image28.jpg",
+    "genre": "Horror",
+    "duration": 100
+  },
+  {
+    "title": "Digital Eden",
+    "description": "In a simulated paradise, one avatar begins to question its own existence.",
+    "videoUrl": "https://example.com/videos/digital-eden.mp4",
+    "thumbnailUrl": "/images/thumbnails/image29.jpg",
+    "genre": "Sci-Fi",
+    "duration": 116
+  },
+  {
+    "title": "Wildfire Hearts",
+    "description": "Two rival firefighters must team up during a record-breaking wildfire season.",
+    "videoUrl": "https://example.com/videos/wildfire-hearts.mp4",
+    "thumbnailUrl": "/images/thumbnails/image30.jpg",
+    "genre": "Drama",
+    "duration": 110
+  }
+]
