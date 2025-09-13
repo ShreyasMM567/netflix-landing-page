@@ -34,16 +34,23 @@ const Auth = () =>{
         try{
             await axios.post("/api/register", {
                 email, name, password
-            })
+            });
+            
+            // After successful registration, sign in the user
+            await signIn('credentials', {
+                email,
+                password,
+                callbackUrl: '/profiles',
+            });
+            
             setEmail("");
             setName("");
             setPassword("");
-            login();
         }
         catch(err){
             console.log(err);
         }
-    }, [email, name, password, login])
+    }, [email, name, password])
 
 
     return (

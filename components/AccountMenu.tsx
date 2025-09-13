@@ -1,5 +1,6 @@
 import useCurrentUser from "@/hooks/useCurrentUser";
 import { signOut } from "next-auth/react";
+import { useRouter } from "next/router";
 
 interface AccountMenuProps {
     visible?: boolean;
@@ -8,6 +9,7 @@ interface AccountMenuProps {
 const AccountMenu: React.FC<AccountMenuProps> = ({ visible }) => {
 
     const { data } = useCurrentUser();
+    const router = useRouter();
 
     if(!visible) 
         return null;
@@ -19,7 +21,10 @@ const AccountMenu: React.FC<AccountMenuProps> = ({ visible }) => {
                     <p className="text-white text-sm group-hover/item:underline">{data?.name}</p>
                 </div>
                 <hr className="bg-gray-600 border-0 h-px my-4"/>
-                <div onClick={() => signOut()} className = "px-3 text-center text-white text-sm hover:underline">
+                <div onClick={() => router.push('/payment')} className = "px-3 text-center text-white text-sm hover:underline cursor-pointer">
+                    Manage Subscription
+                </div>
+                <div onClick={() => signOut()} className = "px-3 text-center text-white text-sm hover:underline cursor-pointer">
                     Sign out of Netflix
                 </div>
             </div>  

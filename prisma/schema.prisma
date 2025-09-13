@@ -25,6 +25,14 @@ model User{
   favoriteIds String[] @db.ObjectId
   sesssions Session[]
   accounts Account[]
+  
+  // Subscription fields
+  subscriptionStatus String? @default("inactive") // inactive, active, cancelled, payment_failed
+  subscriptionPlan String? // basic, standard, premium
+  subscriptionId String? // External subscription ID
+  subscriptionStartDate DateTime?
+  subscriptionEndDate DateTime?
+  paymentIntentId String? // Last payment intent ID
 }
 
 model Account{

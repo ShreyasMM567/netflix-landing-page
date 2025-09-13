@@ -6,8 +6,13 @@ import { compare } from 'bcrypt';
 import GithubProvider from 'next-auth/providers/github'
 import GoogleProvider from 'next-auth/providers/google'
 
+// Validate required environment variables
+if (!process.env.NEXTAUTH_SECRET) {
+    console.error('NEXTAUTH_SECRET is not set in environment variables');
+    throw new Error('NEXTAUTH_SECRET is required');
+}
 
-export default NextAuth({
+const authOptions = NextAuth({
     providers: [
         GithubProvider({
             clientId: process.env.GITHUB_ID || "",
@@ -31,23 +36,39 @@ export default NextAuth({
                 }
             },
             authorize: async(credentials) => {
-                console.log("GOOGLE WHY", credentials);
+                console.log("Auth attempt with credentials:", credentials);
                 if(!credentials?.email || !credentials?.password){
-                    throw new Error("Email and password requried");
+                    console.log("Missing email or password");
+                    throw new Error("Email and password required");
                 }
-                const user = await prismadb.user.findUnique({
-                    where: {
-                        email: credentials.email
+                
+                try {
+                    const user = await prismadb.user.findUnique({
+                        where: {
+                            email: credentials.email
+                        }
+                    });
+                    
+                    console.log("Found user:", user ? "Yes" : "No");
+                    
+                    if(!user || !user.hashedPassword){
+                        console.log("User not found or no hashed password");
+                        throw new Error("Email does not exist");
                     }
-                });
-                if(!user ||!user.hashedPassword){
-                    throw new Error("Email does not exist");
+                    
+                    const isCorrectPassword = await compare(credentials.password, user.hashedPassword);
+                    console.log("Password correct:", isCorrectPassword);
+                    
+                    if(!isCorrectPassword){
+                        throw new Error("Incorrect password");
+                    }
+                    
+                    console.log("Authentication successful for user:", user.email);
+                    return user;
+                } catch (error) {
+                    console.error("Auth error:", error);
+                    throw error;
                 }
-                const isCorrectPassword = await compare(credentials.password, user.hashedPassword);
-                if(!isCorrectPassword){
-                    throw new Error("Incorrect password");
-                }
-                return user;
             }
         })
     ],
@@ -60,7 +81,10 @@ export default NextAuth({
         strategy: 'jwt',
     },  
     jwt: {
-        secret: process.env.NEXTAUTH_JWT_SECRET,
+        secret: process.env.NEXTAUTH_SECRET,
     },
     secret: process.env.NEXTAUTH_SECRET,
 });
+
+export { authOptions };
+export default authOptions;
